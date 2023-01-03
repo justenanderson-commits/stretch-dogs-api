@@ -1,21 +1,21 @@
-require('dotenv').config()
+require('dotenv').config({ path: '../.env' })
 
 module.exports = {
   development: {
     client: 'pg',
     connection: process.env.DB_URL,
     migrations: {
-      directiory: './knex_migrations',
+      directory: './migrations',
     },
-    seeds: { directiory: './db/seeds' },
+    seeds: { directory: './seeds' },
   },
 
   production: {
     client: 'pg',
     connection: process.env.DB_URL,
     migrations: {
-      directiory: './knex_migrations',
+      directory: './migrations',
     },
-    seeds: { directiory: './db/seeds' },
+    seeds: { directory: './seeds' },
   },
 }
