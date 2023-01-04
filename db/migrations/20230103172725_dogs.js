@@ -5,7 +5,7 @@ exports.up = knex =>
     tbl.text("size", 128).notNullable();
     tbl.integer("family_rating", 128).notNullable();
     tbl.integer("trainability", 128).notNullable();
-    tbl.integer("grooming_needs", 128).notNullable();
+    tbl.integer("grooming_needed", 128).notNullable();
     tbl.integer("energy_level", 128).notNullable();
     tbl.text("img", 256).notNullable();
   });
