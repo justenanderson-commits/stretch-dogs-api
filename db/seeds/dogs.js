@@ -112,6 +112,30 @@ exports.seed = async function (knex) {
       grooming_needed: 5,
       energy_level: 5,
       img: 'https://worldanimalfoundation.org/wp-content/uploads/2022/10/Australian-Shepherd-Dog-Breed-History-review.jpg',
-    } 
+    }, {
+      breed: 'American Hairless terrier',
+      size: 'small',
+      family_rating: 5,
+      trainability: 5,
+      grooming_needed: 1,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/American-Hairless-Terrier-standing-in-the-grass-on-lead.jpg',
+    }, {
+      breed: 'Peruvian Inca Orchid',
+      size: 'medium',
+      family_rating: 4,
+      trainability: 3,
+      grooming_needed: 1,
+      energy_level: 4,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Peruvian-Inca-Orchid-04.jpg',
+    }, {
+      breed: 'Boxer',
+      size: 'large',
+      family_rating: 4,
+      trainability: 4,
+      grooming_needed: 2,
+      energy_level: 4,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Boxer.1.jpg',
+    }, 
   ])
 }
