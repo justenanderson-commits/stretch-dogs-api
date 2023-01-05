@@ -50,8 +50,7 @@ exports.seed = async function (knex) {
       grooming_needed: 2,
       energy_level: 3,
       img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Short-haired-Dachshund.jpg/640px-Short-haired-Dachshund.jpg',
-    }, 
-    {
+    }, {
       breed: 'German Sheperd',
       size: 4,
       family_rating: 5,
@@ -113,8 +112,7 @@ exports.seed = async function (knex) {
       grooming_needed: 5,
       energy_level: 5,
       img: 'https://worldanimalfoundation.org/wp-content/uploads/2022/10/Australian-Shepherd-Dog-Breed-History-review.jpg',
-    }, 
-    {
+    }, {
       breed: 'American Hairless terrier',
       size: 1,
       family_rating: 5,
@@ -122,8 +120,7 @@ exports.seed = async function (knex) {
       grooming_needed: 1,
       energy_level: 3,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/American-Hairless-Terrier-standing-in-the-grass-on-lead.jpg',
-    }, 
-    {
+    }, {
       breed: 'Peruvian Inca Orchid',
       size: 2,
       family_rating: 4,
@@ -131,8 +128,7 @@ exports.seed = async function (knex) {
       grooming_needed: 1,
       energy_level: 4,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Peruvian-Inca-Orchid-04.jpg',
-    }, 
-    {
+    }, {
       breed: 'Boxer',
       size: 4,
       family_rating: 4,
@@ -141,6 +137,7 @@ exports.seed = async function (knex) {
       energy_level: 4,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Boxer.1.jpg',
     }, 
+    ,
     {
       breed: 'American StaffordShire Terrier',
       size: 4,
@@ -148,6 +145,7 @@ exports.seed = async function (knex) {
       trainability: 3,
       grooming_needed: 2,
       energy_level: 3,
+      id: 16,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/AmStaff.01.jpg'
     },
     {
@@ -157,6 +155,7 @@ exports.seed = async function (knex) {
       trainability: 3,
       grooming_needed: 4,
       energy_level: 4,
+      id: 17,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Great-Pyrenees-walking-on-the-beach.jpg'
     },
     {
@@ -166,6 +165,7 @@ exports.seed = async function (knex) {
       trainability: 4,
       grooming_needed: 3,
       energy_level: 3,
+      id: 18,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Pug-On-White-01.jpg'
     },
     {
@@ -175,6 +175,7 @@ exports.seed = async function (knex) {
       trainability: 5,
       grooming_needed: 3,
       energy_level: 5,
+      id: 19,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Nova-Scotia-Duck-Tolling-Retriever-slide1.jpg'
     },
     {
@@ -184,15 +185,17 @@ exports.seed = async function (knex) {
       trainability: 1,
       grooming_needed: 1,
       energy_level: 1,
+      id: 20,
       img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Curious_Raccoon.jpg/800px-Curious_Raccoon.jpg?20130712195919'
     },
     {
-      breed: 'Scottish Herbivorous Nottacanis',
+      breed: 'Scottish Herbivorous Nottucanis',
       size: 5,
       family_rating: 5,
       trainability: 5,
       grooming_needed: 5,
       energy_level: 5,
+      id: 21,
       img: 'https://www.helpfulhorsehints.com/wp-content/uploads/Shetland-Pony-in-Grass-Field-1024x597.jpg'
     },
     {
@@ -202,6 +205,7 @@ exports.seed = async function (knex) {
       trainability: 4,
       grooming_needed: 2,
       energy_level: 5,
+      id: 22,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Australian-Cattle-Dog-laying-down-in-the-grass.jpg'
     },
     {
@@ -211,6 +215,7 @@ exports.seed = async function (knex) {
       trainability: 5,
       grooming_needed: 4,
       energy_level: 3,
+      id: 23,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Standard-Schnauzer-standing-outdoors.jpg'
     },
     {
@@ -220,6 +225,7 @@ exports.seed = async function (knex) {
       trainability: 5,
       grooming_needed: 5,
       energy_level: 3,
+      id: 24,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Saint-Bernard-On-White-01.jpg'
     },
     {
@@ -229,6 +235,7 @@ exports.seed = async function (knex) {
       trainability: 5,
       grooming_needed: 4,
       energy_level: 4,
+      id: 25,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Shetland-Sheepdog-On-White-01.jpg'
     },
     {
@@ -238,6 +245,7 @@ exports.seed = async function (knex) {
       trainability: 4,
       grooming_needed: 4,
       energy_level: 3,
+      id: 26,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Bulldog-standing-in-the-grass.jpg'
     },
     {
@@ -247,6 +255,7 @@ exports.seed = async function (knex) {
       trainability: 3,
       grooming_needed: 3,
       energy_level: 3,
+      id: 27,
       img: 'https://www.akc.org/wp-content/uploads/2020/01/American-Bulldog-standing-in-three-quarter-view.jpg'
     },
     {
@@ -256,6 +265,7 @@ exports.seed = async function (knex) {
       trainability: 2,
       grooming_needed: 4,
       energy_level: 3,
+      id: 28,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Shiba-Inu-standing-in-profile-outdoors.jpg'
     },
     {
@@ -265,6 +275,7 @@ exports.seed = async function (knex) {
       trainability: 3,
       grooming_needed: 2,
       energy_level: 4,
+      id: 29,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Greyhound-running.jpg'
     },
     {
@@ -274,6 +285,7 @@ exports.seed = async function (knex) {
       trainability: 4,
       grooming_needed: 2,
       energy_level: 4,
+      id: 30,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Bullmastiff-standing-in-a-field.jpg'
     }
   ])
