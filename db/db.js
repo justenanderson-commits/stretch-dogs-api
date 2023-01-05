@@ -1,3 +1,4 @@
+// To-Do: Fix env, not loading
 require('dotenv').config({ path: '../.env' })
 
 const knex = require('knex')
