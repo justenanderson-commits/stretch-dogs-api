@@ -269,7 +269,7 @@ exports.seed = async function (knex) {
     },
     {
       breed: 'Bullmastiff',
-      size: 30,
+      size: 5,
       family_rating: 3,
       trainability: 4,
       grooming_needed: 2,
