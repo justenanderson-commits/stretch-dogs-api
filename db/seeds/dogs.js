@@ -1,5 +1,5 @@
 /**
- * @param { import("knex").Knex } knex
+ * @param { import('knex').Knex } knex
  * @returns { Promise<void> }
  */
 exports.seed = async function (knex) {
@@ -8,16 +8,16 @@ exports.seed = async function (knex) {
   await knex('dogs').insert([
     {
       breed: 'Labrador Retriever',
-      size: 'large',
+      size: 4,
       family_rating: 5,
       trainability: 5,
-      grooming_needed: 1,
+      grooming_needed: 2,
       energy_level: 5,
       img: 'https://commons.wikimedia.org/wiki/File:Labrador_Retriever_%281210559%29.jpg',
     }, 
     {
       breed: 'Golden Retriever',
-      size: 'large',
+      size: 4,
       family_rating: 5,
       trainability: 5,
       grooming_needed: 4,
@@ -26,7 +26,7 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Standard Poodle',
-      size: 'large',
+      size: 4,
       family_rating: 5,
       trainability: 5,
       grooming_needed: 4,
@@ -35,7 +35,7 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'French Bulldog',
-      size: 'medium',
+      size: 2,
       family_rating: 5,
       trainability: 4,
       grooming_needed: 1,
@@ -44,15 +44,16 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Dachschund',
-      size: 'small',
+      size: 2,
       family_rating: 4,
       trainability: 4,
       grooming_needed: 2,
       energy_level: 3,
       img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Short-haired-Dachshund.jpg/640px-Short-haired-Dachshund.jpg',
-    }, {
+    }, 
+    {
       breed: 'German Sheperd',
-      size: 'large',
+      size: 4,
       family_rating: 5,
       trainability: 5,
       grooming_needed: 2,
@@ -61,7 +62,7 @@ exports.seed = async function (knex) {
     },
     {
       breed: 'Shih Tzu',
-      size: 'small',
+      size: 1,
       family_rating: 5,
       trainability: 3,
       grooming_needed: 4,
@@ -70,8 +71,8 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Chihuahua',
-      size: 'small',
-      family_rating: 3,
+      size: 1,
+      family_rating: 2,
       trainability: 3,
       grooming_needed: 1,
       energy_level: 4,
@@ -79,7 +80,7 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Yorkshire Terrier',
-      size: 'small',
+      size: 1,
       family_rating: 5,
       trainability: 4,
       grooming_needed: 5,
@@ -88,7 +89,7 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Cavalier King Charles Spaniel',
-      size: 'small',
+      size: 2,
       family_rating: 5,
       trainability: 4,
       grooming_needed: 2,
@@ -97,7 +98,7 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Boykin Spaniel',
-      size: 'medium',
+      size: 3,
       family_rating: 4,
       trainability: 4,
       grooming_needed: 3,
@@ -106,36 +107,174 @@ exports.seed = async function (knex) {
     }, 
     {
       breed: 'Australian Shepherd',
-      size: 'medium',
+      size: 3,
       family_rating: 4,
       trainability: 5,
       grooming_needed: 5,
       energy_level: 5,
       img: 'https://worldanimalfoundation.org/wp-content/uploads/2022/10/Australian-Shepherd-Dog-Breed-History-review.jpg',
-    }, {
+    }, 
+    {
       breed: 'American Hairless terrier',
-      size: 'small',
+      size: 1,
       family_rating: 5,
       trainability: 5,
       grooming_needed: 1,
       energy_level: 3,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/American-Hairless-Terrier-standing-in-the-grass-on-lead.jpg',
-    }, {
+    }, 
+    {
       breed: 'Peruvian Inca Orchid',
-      size: 'medium',
+      size: 2,
       family_rating: 4,
       trainability: 3,
       grooming_needed: 1,
       energy_level: 4,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Peruvian-Inca-Orchid-04.jpg',
-    }, {
+    }, 
+    {
       breed: 'Boxer',
-      size: 'large',
+      size: 4,
       family_rating: 4,
       trainability: 4,
       grooming_needed: 2,
       energy_level: 4,
       img: 'https://www.akc.org/wp-content/uploads/2017/11/Boxer.1.jpg',
     }, 
+    {
+      breed: 'American StaffordShire Terrier',
+      size: 4,
+      family_rating: 4,
+      trainability: 3,
+      grooming_needed: 2,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/AmStaff.01.jpg'
+    },
+    {
+      breed: 'Great Pyrenees',
+      size: 5,
+      family_rating: 4,
+      trainability: 3,
+      grooming_needed: 4,
+      energy_level: 4,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Great-Pyrenees-walking-on-the-beach.jpg'
+    },
+    {
+      breed: 'Pug',
+      size: 2,
+      family_rating: 5,
+      trainability: 4,
+      grooming_needed: 3,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Pug-On-White-01.jpg'
+    },
+    {
+      breed: 'Nova Scotia Duck Tolling Retriever',
+      size: 3,
+      family_rating: 5,
+      trainability: 5,
+      grooming_needed: 3,
+      energy_level: 5,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Nova-Scotia-Duck-Tolling-Retriever-slide1.jpg'
+    },
+    {
+      breed: 'American Ring-Tail Bandit',
+      size: 1,
+      family_rating: 1,
+      trainability: 1,
+      grooming_needed: 1,
+      energy_level: 1,
+      img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Curious_Raccoon.jpg/800px-Curious_Raccoon.jpg?20130712195919'
+    },
+    {
+      breed: 'Scottish Herbivorous Nottacanis',
+      size: 5,
+      family_rating: 5,
+      trainability: 5,
+      grooming_needed: 5,
+      energy_level: 5,
+      img: 'https://www.helpfulhorsehints.com/wp-content/uploads/Shetland-Pony-in-Grass-Field-1024x597.jpg'
+    },
+    {
+      breed: 'Australian Cattle Dog',
+      size: 3,
+      family_rating: 2,
+      trainability: 4,
+      grooming_needed: 2,
+      energy_level: 5,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Australian-Cattle-Dog-laying-down-in-the-grass.jpg'
+    },
+    {
+      breed: 'Standard Schnauzer',
+      size: 3,
+      family_rating: 5,
+      trainability: 5,
+      grooming_needed: 4,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Standard-Schnauzer-standing-outdoors.jpg'
+    },
+    {
+      breed: 'Saint Bernard',
+      size: 5,
+      family_rating: 5,
+      trainability: 5,
+      grooming_needed: 5,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Saint-Bernard-On-White-01.jpg'
+    },
+    {
+      breed: 'Shetland Sheepdog',
+      size: 2,
+      family_rating: 5,
+      trainability: 5,
+      grooming_needed: 4,
+      energy_level: 4,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Shetland-Sheepdog-On-White-01.jpg'
+    },
+    {
+      breed: 'English Bulldog',
+      size: 3,
+      family_rating: 3,
+      trainability: 4,
+      grooming_needed: 4,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Bulldog-standing-in-the-grass.jpg'
+    },
+    {
+      breed: 'American Bulldog',
+      size: 5,
+      family_rating: 2,
+      trainability: 3,
+      grooming_needed: 3,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2020/01/American-Bulldog-standing-in-three-quarter-view.jpg'
+    },
+    {
+      breed: 'Shiba Inu',
+      size: 2,
+      family_rating: 4,
+      trainability: 2,
+      grooming_needed: 4,
+      energy_level: 3,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Shiba-Inu-standing-in-profile-outdoors.jpg'
+    },
+    {
+      breed: 'Greyhound',
+      size: 4,
+      family_rating: 3,
+      trainability: 3,
+      grooming_needed: 2,
+      energy_level: 4,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Greyhound-running.jpg'
+    },
+    {
+      breed: 'Bullmastiff',
+      size: 5,
+      family_rating: 3,
+      trainability: 4,
+      grooming_needed: 2,
+      energy_level: 4,
+      img: 'https://www.akc.org/wp-content/uploads/2017/11/Bullmastiff-standing-in-a-field.jpg'
+    }
   ])
 }
