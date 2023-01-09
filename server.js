@@ -2,11 +2,14 @@ const express = require('express')
 const app = express()
 const db = require('./db/db')
 const cors = require('cors')
+require('dotenv').config()
 
 app.locals.title = 'Stretch Dog API'
 
-app.set('port', 3001)
+app.set('port', process.env.PORT)
+
 app.use(cors())
+app.use(express.json())
 
 app.get(
   '/api/v1/dogs/:size/:family_rating/:trainability/:grooming_needed/:energy_level',

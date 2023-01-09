@@ -1,9 +1,9 @@
-require('dotenv').config({ path: '../.env' })
+require('dotenv').config()
 
 module.exports = {
   development: {
     client: 'pg',
-    connection: process.env.DB_URL || 'postgres://postgres:postgres@localhost:5432/dogs_dev',
+    connection: process.env.DB_URL,
     migrations: {
       directory: './migrations',
     },
@@ -12,7 +12,7 @@ module.exports = {
 
   production: {
     client: 'pg',
-    connection: process.env.DB_URL || 'postgres://postgres:postgres@localhost:5432/dogs_dev',
+    connection: process.env.DB_URL,
     migrations: {
       directory: './migrations',
     },
