@@ -14,7 +14,6 @@ app.use(express.json())
 app.get(
   '/api/v1/dogs/:size/:family_rating/:trainability/:grooming_needed/:energy_level',
   async (request, response) => {
-    console.log(request.params)
     try {
       const {
         size,
