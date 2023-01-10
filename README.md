@@ -20,12 +20,11 @@ This is the API for [Pawfect Match](https://github.com/Mrcolin99/stretch-dogs) -
 
 * ![NodeJS][NodeJS]
 * ![Heroku][Heroku]
+* <img width= "100" src="https://user-images.githubusercontent.com/104015966/211458436-b55127e5-bec4-4c90-a85d-26deca524150.png" />
 * ![Docker][Docker]
 * ![Postgres][Postgres]
 * ![Express.js][Express.js]
 * ![JavaScript][JavaScript]
-* ![Knex](https://user-images.githubusercontent.com/104015966/211458436-b55127e5-bec4-4c90-a85d-26deca524150.png)
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
