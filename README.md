@@ -16,7 +16,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is the API for [Neon Typed](https://github.com/tricia-holmes/neon-typed) - a  neon / Cyberpunk inspired typing test app.
+This is the API for [Pawfect Match](https://github.com/Mrcolin99/stretch-dogs) - dog breed research and selection app.
 
 ### Built With
 
