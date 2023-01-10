@@ -10,8 +10,6 @@
 </p>
 <br />
 
-![Screenshot 2023-01-09 at 8 23 48 PM](https://user-images.githubusercontent.com/104015966/211455531-df54b6ef-5243-46ab-8b12-01e31b4874e2.png)
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
