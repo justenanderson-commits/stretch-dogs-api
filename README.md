@@ -26,7 +26,8 @@ This is the API for [Pawfect Match](https://github.com/Mrcolin99/stretch-dogs) -
 * ![Postgres][Postgres]
 * ![Express.js][Express.js]
 * ![JavaScript][JavaScript]
-* ![Knex][Knex]
+* ![Knex](https://user-images.githubusercontent.com/104015966/211458436-b55127e5-bec4-4c90-a85d-26deca524150.png)
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
