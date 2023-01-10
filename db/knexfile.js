@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({path: '../.env'})
 
 module.exports = {
   development: {
@@ -9,6 +9,7 @@ module.exports = {
     },
     seeds: { directory: './seeds' },
   },
+
 
   production: {
     client: 'pg',
