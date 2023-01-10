@@ -13,7 +13,7 @@ exports.seed = async function (knex) {
       trainability: 5,
       grooming_needed: 2,
       energy_level: 5,
-      img: 'https://commons.wikimedia.org/wiki/File:Labrador_Retriever_%281210559%29.jpg',
+      img: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Labrador_Retrievers_yellow_and_red.jpg',
       description:
         'The Labrador Retriever or Labrador is a British breed of retriever gun dog.',
     },
@@ -296,7 +296,8 @@ exports.seed = async function (knex) {
       grooming_needed: 3,
       energy_level: 3,
       img: 'https://www.akc.org/wp-content/uploads/2020/01/American-Bulldog-standing-in-three-quarter-view.jpg',
-      description: '',
+      description:
+        'American Bulldogs are a well-balanced athletic dog that demonstrate great strength, endurance, agility, and a friendly attitude. Historically, they were bred to be a utility dog used for working the farm.',
     },
     {
       breed: 'Bichon Frisé',
