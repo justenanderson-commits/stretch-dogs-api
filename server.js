@@ -41,3 +41,7 @@ app.get(
 app.listen(app.get('port'), () => {
   console.log(`${app.locals.title} is now running on port ${app.get('port')}!`)
 })
+
+app.use((req, res, next) => {
+  res.status(404).json("Sorry can't find that!")
+})
