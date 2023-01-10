@@ -1,4 +1,3 @@
-// To-Do: Fix env, not loading
 require('dotenv').config()
 
 const knex = require('knex')
