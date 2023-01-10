@@ -49,6 +49,14 @@ This is the API for [Pawfect Match](https://github.com/Mrcolin99/stretch-dogs) -
    ```sh
    docker compose up
    ```
+5. Run your migration
+   ```sh
+   npm run migrate
+   ```
+6. Seed your database
+   ```sh
+   npm run seed
+   ```
 
 ## Contributors:
 - [Dana Tram Truong](https://github.com/tramtram1130)
